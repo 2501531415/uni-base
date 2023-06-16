@@ -10,10 +10,6 @@
   import { onLoad } from '@dcloudio/uni-app'
   
   const props = defineProps({
-    bgColor:{
-      type:String,
-      default:"#39b54a"
-    },
     isCustom:{
       type:Boolean,
       default:false
@@ -71,7 +67,7 @@
       width: 100%;
       height: 6rpx;
       overflow: hidden;
-      background-color: v-bind(bgColor);
+      background-color: $u-primary;
       transition: all 200ms ease 0s;
     }
   }

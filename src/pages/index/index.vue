@@ -35,7 +35,7 @@
   		})
   	} else if (index == 1) {
   		uni.switchTab({
-  			url: '/pages/ucenter/ucenter'
+  			url: '/pages/map/map'
   		})
   	} else if (index == 2) {
   		uni.switchTab({

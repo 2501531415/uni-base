@@ -12,9 +12,9 @@
 			}
 		},
     {
-    	"path": "pages/ucenter/ucenter",
+    	"path": "pages/map/map",
     	"style": {
-    		"navigationBarTitleText": "榜单"
+    		"navigationBarTitleText": "地图"
     	}
     },
     {
@@ -118,10 +118,10 @@
   		"text": "首页"
   	},
     {
-  		"pagePath": "pages/ucenter/ucenter",
+  		"pagePath": "pages/map/map",
   		"iconPath": "static/tabbar/center.png",
   		"selectedIconPath": "static/tabbar/center_art.png",
-  		"text": "分类"
+  		"text": "地图"
   	}, 
     {
   		"pagePath": "pages/list/list",

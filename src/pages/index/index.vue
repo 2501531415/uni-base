@@ -20,6 +20,7 @@
         </view>
       </view>
     </view>
+    <u-button text="月落" @click="go"></u-button>
   </view>
   <my-loading ref="loadingRef"/>
   <my-tabbar @toIndex="toIndex" :home="0"></my-tabbar>
@@ -56,9 +57,9 @@
     },3000)
   })
   
-  const menuClick = (name)=>{
+  const go = (name)=>{
     uni.navigateTo({
-      url: `${name}`
+      url:'/pageBase/login/login'
     })
   }
   const toIndex = (index)=>{

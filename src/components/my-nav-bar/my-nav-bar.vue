@@ -113,7 +113,7 @@
 }
 
 .bg-gradual-purple {
-	background-image: linear-gradient(45deg, #9000ff, #5e00ff);
+	background-image: linear-gradient(45deg, #663399, #5e00ff);
 	color: #ffffff;
 }
 

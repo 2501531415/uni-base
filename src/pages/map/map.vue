@@ -3,13 +3,12 @@
     <map :longitude="map.longitude" :latitude="map.latitude" :markers="map.markers" :scale="14" class="map-size" :enable-traffic="true" @tap="mapTap">
     </map>
   </view>
-  <foot-bar @toIndex="toIndex" :home="1"></foot-bar>
+  <my-tabbar @toIndex="toIndex" :home="1"></my-tabbar>
 </template>
 
 <script setup>
   import { onLoad } from '@dcloudio/uni-app'
   import { reactive} from 'vue'
-  import footBar from '@/components/footBar/footBar.vue'
   
   const map = reactive({
     longitude:"",

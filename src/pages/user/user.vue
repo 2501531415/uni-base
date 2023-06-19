@@ -1,10 +1,9 @@
 <template>
-  <foot-bar @toIndex="toIndex" :home="3"></foot-bar>
+  <my-tabbar @toIndex="toIndex" :home="3"></my-tabbar>
 </template>
 
 <script setup>
   import { onLoad } from '@dcloudio/uni-app'
-  import footBar from '@/components/footBar/footBar.vue'
   onLoad(()=>{
     uni.hideTabBar()
   })
